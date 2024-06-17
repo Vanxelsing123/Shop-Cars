@@ -1,0 +1,55 @@
+@import './color.css';
+
+.header {
+    background-color: var(--black);
+}
+
+.header__main {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header__inner {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu__list {
+    display: flex;
+    gap: 35px;
+}
+
+.menu__btn {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.menu__btn span {
+    height: 2px;
+    background-color: var(--white);
+    width: 100%;
+}
+
+.menu__list-link {
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu__list-link--active {
+    color: var(--blue);
+}

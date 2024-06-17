@@ -1,0 +1,236 @@
+@media (max-width: 1180px) {
+    .important__list {
+        gap: 20px 30px;
+    }
+    .important__item--img {
+        width: 100%;
+    }
+    
+    .tabs__content--item {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1040px) {
+    .tabs__btn {
+        padding: 0 0 50px;
+        gap: 20px;
+    }
+
+    .video__content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 860px) {
+    .menu__btn {
+        display: flex;
+        transition: transform .3s ease-in-out;
+    }
+
+    .menu__btn, .logo {
+        position: relative;
+        z-index: 10;
+    }
+
+    .menu__list {
+        position: absolute;
+        z-index: 5;
+        height: 100vh;
+        padding-top: 200px;
+        background-color: var(--black);
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: transform .3s ease-in-out;
+    }
+
+    .burger--active {
+        transform: rotate(90deg);
+    }
+
+    .stop-scroll {
+        overflow: hidden;
+    }
+
+    .menu__list.menu__list--active {
+        transform: translateY(0%);
+    }
+    
+    .why__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .important__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .tabs__content--item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 70px;
+    }
+    
+    .top__link {
+        padding: 16px;
+        max-width: 360px;
+        font-size: 28px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 60px;
+    }
+
+    .swiper-pagination-bullet-active {
+        height: 4px;
+    }
+    
+    .footer__menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    
+    .video__content {
+        height: 400px;
+    }
+}
+
+@media (max-width: 650px) {
+    .tabs__content--item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tabs__btn--item {
+        font-size: 18px;
+    }
+
+    .block__items-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contacts {
+        padding: 50px 0;
+    }
+
+    .contact__input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contacts__text {
+        padding: 0;
+    }
+
+}
+
+
+@media (max-width: 540px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .top__link {
+        max-width: 310px;
+        font-size: 24px;
+    } 
+
+    .swiper-horizontal>.swiper-pagination-bullets 
+    .swiper-pagination-bullet, .swiper-pagination-horizontal 
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin:  0 10px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 35px;
+    }
+
+    .why__lease {
+        padding: 50px 0;
+    }
+
+    .section__title {
+        font-size: 34px;
+    }
+
+    .why__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .how__does {
+        padding-bottom: 50px;
+    }
+
+    .how__does--list {
+        padding: 30px 0 40px;
+    }
+
+    .how__does--item {
+        margin-right: auto;
+        padding: 60px 0 19px 0;
+    }
+
+    .how__does--item::before {
+        width: 50px;
+        height: 50px;
+        font-size: 32px;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .video__car {
+        padding-bottom: 50px;
+    }
+
+    .video__content {
+        height: 200px;
+    }
+
+    .important__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .app {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copy__nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .block__items-content {
+        margin-bottom: 10px;
+    }
+    .block__item--link {
+        margin-left: auto;
+    }
+
+    .tabs__btn {
+        flex-direction: column;
+    }
+
+    .new-cars {
+        padding: 50px 0;
+    }
+    
+    .tabs__content--item {
+        gap: 40px;
+    }
+
+    .block {
+        padding-bottom: 50px;
+    }
+}

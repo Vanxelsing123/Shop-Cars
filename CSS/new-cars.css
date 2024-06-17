@@ -1,0 +1,91 @@
+ @import './color.css';
+
+ .block__link--btn {
+    text-transform: uppercase;
+    background-color: var(--black);
+    padding: 13px;
+    color: var(--white);
+    width: 225px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+}
+
+
+
+.new-cars {
+    padding: 100px 0 150px;
+}
+
+.tabs__btn {
+    padding: 0 150px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.tabs__btn--item {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn--active {
+    color: var(--blue);
+}
+
+
+.tabs__content--item {
+    display: none;
+}
+
+.tabs__content--active {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+
+.card {
+    text-align: center;
+}
+
+.card__img {
+    display: block;
+    width: 100%;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card__text {
+    margin-bottom: 20px;
+}
+
+.card__content {
+    padding: 0 5px;
+    border: 1px solid var(--blue);
+    border-top: 0;
+}
+
+.card__prise {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cars__link {
+    display: block;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    border-top: 0;
+}
+
